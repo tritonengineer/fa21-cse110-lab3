@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Meeting Notes</title>
+        <meta charset ="UTF-8"> 
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrand.ucsd.edu%2Flogos-and-brand-elements%2Fadditional-campus-logos%2Findex.html&psig=AOvVaw2X3KqeY-j-ZDsI7gI5TdA_&ust=1633395382868000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNikhZHGr_MCFQAAAAAdAAAAABAD">Favicon</a>
+    </head>
+    <body>
+        <main>
+            <header> 
+                <nav><a href="https://ucsd.edu/">UCSD Wesbite</a></nav>
+                <section>
+                    <h1>Meeting Notes</h1>
+                    <img src = "screenshots/Lab2Image.jpeg">
+                </section>
+                <div>
+                    <h2>Agenda</h2>
+                    <p><strong>Assign tasks for next oureach event.</strong></p>
+                    <ul>
+                        <li><span style="color:blueviolet">Send emails to sponsors.</span></li>
+                        <li><span style="color:blueviolet">Contact and set up venue.</span></li>
+                    </ul>
+                    <details><summary><b>Announce <em>new members</em> of the club board.</b></summary>
+                    <ol>
+                        <li>Sarah</li>
+                        <li>Natalie</li>
+                        <li>Sam</li>
+                        <li>Matthew</li>
+                    </ol>
+                    </details>
+                </div>
+                <hr>
+                <h3>Next Meeting</h3>
+                <p><i>October 30, 2021 <br> 8:00 p.m.</i></p>
+
+                <audio controls>
+                    <source src = "screenshots/UC San Diego's Beautiful Campus.mp3" type="audio/mpeg">
+                </audio>
+                <p>Credit: UC San Diego Admissions Youtube Channel</p>
+                <br>
+                <video width="300" height="200" controls>
+                    <source src = "screenshots/UC San Diego's Beautiful Campus.mp4" type="video/mp4">
+                </video>
+                <p>Credit: C San Diego Admissions Youtube Channel</p>
+                <br>
+
+                <form>
+                    <fieldset>
+                        <input type="checkbox" id="task1" name="task1" value="task">
+                        <label for="task1"> Upload meeting notes to Google Drive.</label>
+                        <br>
+                        <input type="radio" id="task2" name="task2" value="task">
+                        <label for ="task2"> Complete board assignments.</label>
+                        <br>
+                        <label for="task3">Complete entire agenda.</label>
+                        <input type="text" id="task3" name="task3" value="task">
+                        
+                        <br>
+                        <label for="nextmeeting"> Meeting:</label>
+                        <input type="date" id="nextmeeting" name="Next Meeting">
+                        <br>
+                    </fieldset>
+                    <br>
+                    <label for="MeetingNotes">Meeting Notes</label>
+                    <br>
+                    <textarea id="MeetingNotes" name="MeetingNotes" rows="5" cols="20">Meeting Notes</textarea>
+                    <br>
+
+                    <input list="list" name="list" id="list">
+                    <datalist id="list">
+                        <option value = "CSE 101"> CSE 101
+                        </option>
+                    </datalist>
+                    <input type="submit">
+
+                    <br>
+
+                    <label for="classes">Choose a class</label>
+                    <select name="classes" id="classes">
+                            <option value="CSE 101">CSE 101</option>
+                            <option value="CSE 110">CSE 110</option>
+                    </select>
+                    <input type="submit" value="Submit">
+                    <br>
+                    <button type="button">Finish</button>
+                    <br>
+                </form>
+            </header>
+            <footer><a href="https://studentorg.ucsd.edu/">UCSD Clubs</a></footer>
+        </main>
+    </body>
+</html>
