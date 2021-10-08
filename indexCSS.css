@@ -50,10 +50,14 @@ h3 {
     position: relative;
 }
 
-p1 {
+h2 + h3 {
+    padding-top: 10px;
+}
+
+p1, p2 {
     color: hsl(50,100,150);
     font-size: 1em;
-    position: absolute;
+    position:sticky;
     display:flex;
     flex-grow:5;
 }
@@ -78,7 +82,11 @@ p4:hover {
     text-align: left;
 }
 
-.flex-container {
+[name~="Meeting Notes"] {
+    color:teal;
+}
+
+.flex-container > div2 {
     display:flex;
     flex-grow: 5;
     flex-basis: auto;
@@ -87,7 +95,7 @@ p4:hover {
     background-color:white;
 }
 
-.grid-container {
+div ~ .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color:teal;
@@ -96,8 +104,12 @@ p4:hover {
     grid-row: 10;
 }
 
-.item {
+div .item {
     background-color:thistle;
     border-width: 1px;
     padding: 10px;
+}
+
+div .combinedselectors {
+    color:aqua;
 }
