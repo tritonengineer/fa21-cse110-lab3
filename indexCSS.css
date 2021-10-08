@@ -1,0 +1,103 @@
+body {
+    background-color:rosybrown;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color:wheat;
+    }
+}
+@media only screen and (min-wdith: 100px){
+    body {
+        background-color:turquoise;
+    }
+}
+
+/* Styling for header #1*/
+
+h1 {
+    color:teal;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-style: solid;
+    border-color:white;
+    border-width:10px;
+    border-radius:10px;
+    text-decoration:underline;
+    text-align: center;
+}
+
+h2 {
+    color:rgb(233, 173, 7);
+    font-size: 50pt;
+    margin:auto auto auto auto;
+    padding: 10px 10px 10px 10px;
+    display:block;
+}
+
+h3 {
+    color: #FFF;
+    font-size: 0.5in;
+    margin:auto;
+    display: inline-block;
+    position: relative;
+}
+
+p1 {
+    color: hsl(50,100,150);
+    font-size: 1em;
+    position: absolute;
+    display:flex;
+    flex-grow:5;
+}
+
+p2 {
+    font-size: 3ch;
+}
+
+p3:active {
+    font-size: 0.5rem
+}
+
+p4:hover {
+    font-size: 0.5rem
+}
+
+#nextmeeting {
+    color:teal;
+}
+
+* {
+    text-align: left;
+}
+
+.flex-container {
+    display:flex;
+    flex-grow: 5;
+    flex-basis: auto;
+    flex-wrap:nowrap;
+    padding-right: 50px;
+    background-color:white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:teal;
+    padding: 10px;
+    grid-column: 5;
+    grid-row: 10;
+}
+
+.item {
+    background-color:thistle;
+    border-width: 1px;
+    padding: 10px;
+}
